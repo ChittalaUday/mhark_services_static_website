@@ -1,590 +1,745 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <meta name="description" content="Mhark Services - Your Trusted Tax Consultant">
-    <meta name="keywords" content="mhark services, tax consultant, tax services, financial advice">
-    <title>MHARK SERVICES - Your Expert Financial Partner</title>
-    <link rel="icon" href="img/logo.jpg" type="image">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>   
-    <meta name="robots" content="index, follow">
-    <meta name="title" content="Mhark Services">
-  </head>
-  <body>
-   
-    <header id="mainNav">
-      
-      <div onclick="topFunction()" id="home-logo">
-          <a class="logo" href="#">
-              <img src="img/logo.jpg">
-              <h1>MHARK SERVICES</h1>
-          </a>
-      </div>
-      <nav>
-          <ul class="nav_links">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-              <li><a href="#about">About Us</a></li>
-              <li><a href="#services">Services<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
-              </svg></a>
-              <ul class="services-dropdown">
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
-                    </svg>
-                    <a href="/services/registration.html">Registrtion</a>
-                  
-                    <ul class="registration-dropdown">
-                      <li><a>Company Registration</a></li>
-                      <li><a>LLP Registration</a></li>
-                      <li><a>Partnership Firm Registration</a></li>
-                      <li><a>GST Registration</a></li>
-                      <li><a>UDYAM Registration</a></li>
-                      <li><a>GEM Registration</a></li>
-                      <li><a>IEC Registration</a></li>
-                      <li><a>ISO Registration</a></li>
-                      <li><a>NITI Aayog Registration</a></li>
-                      <li><a>NGO & Trust Registration</a></li>
-                      <li><a>PF & ESI Registration</a></li>
-                      <li><a>Trademark Registration</a></li>
-                      <li><a>StartupIndia Registration</a></li>
-                      <li><a>FSSAI Registration</a></li>
-                    </ul>
-                  </li>
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
-                    </svg>
-                    <a href="/services/fillings.html">Filling</a>
-                  <ul>
-                    <li><a>Income Tax Filing</a></li>
-                    <li><a>GST Return Filing</a></li>
-                    <li><a>PF & ESI Filing</a></li>
-                  </ul>
-                  </li>
-                  
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
-                    </svg>
-                    <a href="/services/other-services.html">Other Services</a>
-                  <ul>
-                    <li><a>All Types of Digital Signature Certificates(DSC)</a></li>
-                    <li><a>Trademark Objection Filing</a></li>
-                    <li><a>80G & 12A Registration</a></li>
-                    <li><a>PAN and TAN</a></li>
-                  </ul>
-                  </li>
-              </ul>
+  <title>Prodigy</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/favicon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page" data-bs-spy="scroll" data-bs-target="#navmenu">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1>Prodigy</h1>
+        <span>.</span>
+      </a>
+
+      <!-- Nav Menu -->
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html#hero" class="active">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li class="dropdown has-dropdown">
+            <a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+            <ul class="dd-box-shadow">
+              <li class="dropdown has-dropdown">
+                <a href="#"><span>Staffing</span> <i class="bi bi-chevron-down"></i></a>
+                <ul class="dd-box-shadow">
+                  <li><a href="#">Permanent Staffing</a></li>
+                  <li><a href="#">Temporary Staffing</a></li>
+                </ul>
               </li>
-              <li><a href="#dsc">DSC</a></li>
-              <li><a href="#contact">Contact Us</a></li>
-          </ul>
+              <li class="dropdown has-dropdown">
+                <a href="#"><span>Support</span> <i class="bi bi-chevron-down"></i></a>
+                <ul class="dd-box-shadow">
+                  <li><a href="#">Payroll Services</a></li>
+                  <li><a href="#">Tax Compliance</a></li>
+                  <li><a href="#">Dedicated Support</a></li>
+                </ul>
+              </li>
+              <li class="dropdown has-dropdown">
+                <a href="#"><span>Additional Services</span> <i class="bi bi-chevron-down"></i></a>
+                <ul class="dd-box-shadow">
+                  <li><a href="#">Accurate Payroll Processing</a></li>
+                  <li><a href="#">Customized Solutions</a></li>
+                  <li><a href="#">Technology Integration</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="index.html#portfolio">Portfolio</a></li>
+          <li><a href="index.html#team">Team</a></li>
           
-          <div class="nav-bar" onclick="mobileNav()">
-              <div class="bar"></div>
-              <div class="bar"></div>
-              <div class="bar"></div>
-          </div>
-
-      </nav>
-  </header>
-
-  <div>
-    <ul id="nav-mobile" class="nav-mobile">
-      <div onclick="removeMobileNav()">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
-          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
-          <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"></path>
-        </svg>
-      </div>
-      <li onclick="removeMobileNav"><a href="#about">About Us</a></li>
-      <li onclick="toggleDropdown('services')">
-        <a>Services
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
-          </svg>
-        </a>
-        <ul id="nav-dropdown-services">
-          <li onclick="toggleDropdown2('registration','services')"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-chevron-right" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
-          </svg><a href="/services/registration.html">Registration</a>
-        
-          <ul id="nav-dropdown-registration">
-            <li><a>Company Registration</a></li>
-            <li><a>LLP Registration</a></li>
-            <li><a>Partnership Firm Registration</a></li>
-            <li><a>GST Registration</a></li>
-            <li><a>UDYAM Registration</a></li>
-            <li><a>GEM Registration</a></li>
-            <li><a>IEC Registration</a></li>
-            <li><a>ISO Registration</a></li>
-            <li><a>NITI Aayog Registration</a></li>
-            <li><a>NGO & Trust Registration</a></li>
-            <li><a>PF & ESI Registration</a></li>
-            <li><a>Trademark Registration</a></li>
-            <li><a>StartupIndia Registration</a></li>
-            <li><a>FSSAI Registration</a></li>
-          </ul>
-        </li>
-          <li onclick="toggleDropdown2('fillings','services')"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-chevron-right" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
-          </svg><a href="/services/fillings.html">Filling</a>
-          <ul id="nav-dropdown-fillings" >
-            <li><a>Income Tax Filing</a></li>
-            <li><a>GST Return Filing</a></li>
-            <li><a>PF & ESI Filing</a></li>
-          </ul>
-        </li>
-          <li onclick="toggleDropdown2('others','services')"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-chevron-right" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
-          </svg><a href="/services/other-services.html">Other Services</a>
-          <ul id="nav-dropdown-others" >
-            <li><a>All Types of Digital Signature Certificates(DSC)</a></li>
-            <li><a>Trademark Objection Filing</a></li>
-            <li><a>80G & 12A Registration</a></li>
-            <li><a>PAN and TAN</a></li>
-          </ul>
-        </li>
+          
+          <li><a href="index.html#contact">Contact Us</a></li>
         </ul>
-      </li>
-      <li onclick="removeMobileNav"><a href="#dsc">DSC</a></li>
-      <li onclick="removeMobileNav"><a href="#contact">Contact Us</a></li>
-    </ul>
-  </div>
-  
 
-  <main>
-      <section class="hero-animated  ">
-              <img src="/img/home-image.svg">
-              <div class="text-content">
-                  <h2>Welcome to <span>MHARK SERVICES </span></h2>
-                  <p>Streamline Your Financial Journey with Expert Accounting Services, Registrations, and Digital&nbsp;Signatures.</p>
-                  <a href="#about"><span class="btn-get-started">About Us</span></a>
-              </div>
-      </section>
-      
-      <section id="about" class="fade-in-ani">
-          <div>
-    
-            <div class="section-header">
-              <h2>About Us</h2>
-              <p>We work towards customer satisfaction and make sure our services are hassle- free and more affordable.</p>
-            </div>
-    
-            <div class="row g-4 g-lg-5">
-    
-              <div class="col-lg-5 text-center">
-                <div class="about-img my-auto">
-                    <img src="/img/Agreement-cuate.svg" alt="Image not found">
-                </div>
-            </div>
-            
-            
-    
-              <div class="col-lg-7">
-                  <h3 class="pt-0 pt-lg-5">Simplify Your Financial Management with Expert Accounting Services</h3>
-      
-                  <div class="tab-content">
-      
-                    <div class="tab-pane fade show active" id="tab1">
-      
-                      <p class="fst-italic">At MHARK SERVICES, we offer comprehensive registration services to help businesses establish a solid foundation. From company registration and business licensing to tax registrations and compliance, we streamline the registration process, saving you time and effort. Our expert team ensures all legal requirements are met, enabling you to focus on growing your business confidently.</p>
-      
-                      <div class="d-flex align-items-center mt-4">
-                          <svg xmlns="http://www.w3.org/2000/svg"  width="28" height="28" fill="#ff6600" class="bi bi-check" viewBox="0 0 16 16">
-                              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
-                            </svg>
-                        <h4>Efficient and Accurate Filing Services</h4>
-                      </div>
-                      <p>We understand the importance of efficient and accurate filing in maintaining financial transparency and compliance. Our experienced professionals meticulously handle the complexities of filing, ensuring your tax returns, financial statements, and other regulatory filings are submitted on time and in accordance with the relevant guidelines.</p>
-      
-                      <div class="d-flex align-items-center mt-4">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#ff6600" class="bi bi-check" viewBox="0 0 16 16">
-                              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
-                            </svg>
-                        <h4>Additional Services for Seamless Financial Management</h4>
-                      </div>
-                      <p>In addition to our core registration and filing services, we provide valuable solutions such as digital signatures and trademark objection filing. Our digital signature services offer a secure and convenient way to authenticate and sign documents electronically, reducing paperwork and enhancing efficiency. Furthermore, we assist you in safeguarding your intellectual property rights through trademark objection filing. At MHARK SERVICES, we are committed to providing comprehensive services that go beyond traditional accounting, empowering your business for long-term success.</p>
-      
-                    </div>
-                  </div>
-      
-                </div>
-            </div>
-    
-          </div>
-        </section>
-
-        <section id="clients" class="fade-in-ani clients">
-          
-    
-            <div class="companies">
-              <div id="img-div" class="companies-slider">
-                  <img src="/img/clients/client-1.png">
-                  <img src="/img/clients/client-2.png">
-                  <img src="/img/clients/client-3.png">
-                  <img src="/img/clients/client-4.png">
-                  <img src="/img/clients/client-5.png">
-                  <img src="/img/clients/client-6.png">
-                  <img src="/img/clients/client-7.png">
-                  <img src="/img/clients/client-8.png">
-              </div>
-              <div id="img-div" class="companies-slider">
-                <img src="/img/clients/client-1.png">
-                <img src="/img/clients/client-2.png">
-                <img src="/img/clients/client-3.png">
-                <img src="/img/clients/client-4.png">
-                <img src="/img/clients/client-5.png">
-                <img src="/img/clients/client-6.png">
-                <img src="/img/clients/client-7.png">
-                <img src="/img/clients/client-8.png">
-            </div>
-          </div>
-    
-        </section>
-    
-
-        <section id="services" class="fade-in-ani services">
-          <div class="section-header">
-            <h2>Services We Provide</h2>
-            <p>We work towards customer satisfaction and make sure our services are hassle-free and more affordable.</p>
-          </div>
-          <div class="container" data-aos="fade-up">
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav><!-- End Nav Menu -->
 
 
-            <div class="d-flex justify-content-center">
-              <ul class="nav">
-                <li><a class="nav-pills active" onclick="showTab('tab-1','pill-1')" id="pill-1">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
-                    <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"></path>
-                    <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"></path>
-                  </svg>
-                  Registration
-                </a></li>
-                <li><a class="nav-pills" onclick="showTab('tab-2','pill-2')" id="pill-2">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-folder-check" viewBox="0 0 16 16">
-                    <path d="m.5 3 .04.87a1.99 1.99 0 0 0-.342 1.311l.637 7A2 2 0 0 0 2.826 14H9v-1H2.826a1 1 0 0 1-.995-.91l-.637-7A1 1 0 0 1 2.19 4h11.62a1 1 0 0 1 .996 1.09L14.54 8h1.005l.256-2.819A2 2 0 0 0 13.81 3H9.828a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 6.172 1H2.5a2 2 0 0 0-2 2zm5.672-1a1 1 0 0 1 .707.293L7.586 3H2.19c-.24 0-.47.042-.683.12L1.5 2.98a1 1 0 0 1 1-.98h3.672z"></path>
-                    <path d="M15.854 10.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.707 0l-1.5-1.5a.5.5 0 0 1 .707-.708l1.146 1.147 2.646-2.647a.5.5 0 0 1 .708 0z"></path>
-                  </svg>
-                  Filing
-                </a></li>
-                <li><a class="nav-pills" onclick="showTab('tab-3','pill-3')" id="pill-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-shield-check" viewBox="0 0 16 16">
-                    <path d="M5.338 1.59a61.44 61.44 0 0 0-2.837.856.481.481 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.725 10.725 0 0 0 2.287 2.233c.346.244.652.42.893.533.12.057.218.095.293.118a.55.55 0 0 0 .101.025.615.615 0 0 0 .1-.025c.076-.023.174-.061.294-.118.24-.113.547-.29.893-.533a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56z"></path>
-                    <path d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z"></path>
-                  </svg>
-                  Other Services
-                </a></li>
-              </ul>
-            </div>
-              <div class="services-tab-content active" id="tab-1">
-                <div class="row gy-4">
-                  <div class="col-lg-8 order-2 order-lg-1">
-                    <h3>Registration</h3>
-                    <p>
-                      We offer efficient and streamlined registration services to help you establish your business or organization legally. 
-                      From company registrations to obtaining necessary licenses and permits, we handle the paperwork
-                      so you can focus on your core operations.
-                    </p>
-                    <div class="row">
-                      <div class="col-md-6">
-                        <ul class="no-bullets">
-                          <li>Company Registration</li>
-                          <li>LLP Registration</li>
-                          <li>Partnership Firm Registration</li>
-                          <li>GST Registration</li>
-                          <li>UDYAM Registration</li>
-                          <li>GEM Registration</li>
-                          <li>IEC Registration</li>
-                        </ul>
-                      </div>
-                      <div class="col-md-6">
-                        <ul class="no-bullets">
-                          <li>ISO Registration</li>
-                          <li>NITI Aayog Registration</li>
-                          <li>NGO &amp; Trust Registration</li>
-                          <li>PF &amp; ESI Registration</li>
-                          <li>Trademark Registration</li>
-                          <li>StartupIndia Registration</li>
-                          <li>FSSAI Registration</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <p ><a href="/services/registration.html" class="know-more">Know More</a></p>
-                  </div>
-                  <div class="col-lg-4 order-1 order-lg-2 text-center" >
-                    <br>
-                    <img src="/img/features-1.svg" class="img-fluid animated">
-                  </div>
-                </div>
-              </div>
-    
-              <div class="services-tab-content" id="tab-2">
-                <div class="row gy-4">
-                  <div class="col-lg-8 order-2 order-lg-1">
-                    <h3>Filing</h3>
-                    <p>
-                     Our filing services ensure that all your important documents and forms are submitted accurately and on time. 
-                     We handle various types of filings, including tax returns, compliance forms,
-                     and regulatory filings, making sure you meet your legal obligations effortlessly.
-                    </p>
-                    
-                    <ul class="no-bullets">
-                      <li>Income Tax Filing</li>
-                      <li>GST Return Filing</li>
-                      <li>PF &amp; ESI Filing</li>
-                    </ul>
-                    <p><a href="/services/fillings.html" class="know-more">Know More</a></p>
-                  </div>
-                  <div class="col-lg-4 order-1 order-lg-2 text-center">
-                    <img src="/img/features-2.svg" class="img-fluid animated">
-                  </div>
-                </div>
-              </div>
-    
-              <div class="services-tab-content" id="tab-3">
-                <div class="row gy-4">
-                  <div class="col-lg-8 order-2 order-lg-1">
-                    <h3>Other Services Include</h3>
-                    <p>
-                      In addition to registration and filing, we provide a range of other services to support your business needs. 
-                      This includes digital signatures, which offer secure and convenient electronic authentication, 
-                      as well as assistance with trademark objection filing to protect your intellectual property rights. 
-                      Our goal is to provide comprehensive solutions that help you navigate the complexities of business 
-                      administration efficiently.
-                    </p>
-                    <ul class="no-bullets">
-                      <li>All Types of Digital Signature Certificates(DSC)</li>
-                      <li>Trademark Objection Filing</li>
-                      <li>80G &amp; 12A Registration</li>
-                      <li>PAN and TAN</li>
-                    </ul>
-                    <p><a href="/services/other-services.html" class="know-more">Know More</a></p>
-                  </div>
-                  <div class="col-lg-4 order-1 order-lg-2 text-center">
-                    <img src="/img/features-3.svg" class="img-fluid animated">
-                  </div>
-                </div>
-              </div>
-            </div>
-    
-          
-        </section>
+    </div>
+  </header><!-- End Header -->
 
+  <main id="main">
 
-      <section class="fade-in-ani  testimonial-section">
+    <!-- Hero Section - Home Page -->
+    <section id="hero" class="hero">
 
-        <div id="carouselExampleIndicators" class="carousel slide">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-           </div>
-          <div class="carousel-inner testimonials">
-            <div class="carousel-item active">
-              <div class=" d-block w-100">
-                <div class="testimonial-item">
-                  <img src="/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                  <h3>Thakur Dheren Singh</h3>
-                  <h4>Developer</h4>
-                  <p>
-                    ""I used to dread tax season, but MHARK SERVICES has made the process so much easier and stress-free. Their team is knowledgeable and professional."
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class=" d-block w-100">
-                <div class="testimonial-item">
-                  <img src="/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                  <h3>Sara Wilsson</h3>
-                  <h4>Customer</h4>
-                  <p>
-                    ""As a small business owner, I rely on MHARK SERVICES to keep my finances in order. Their attention to detail and personalized service is top-notch."
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class=" d-block w-100">
-                <div class="testimonial-item">
-                  <img src="/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                  <h3>Janne Willim</h3>
-                  <h4>Designer</h4>
-                  <p>
-                    "I was impressed with the thoroughness of MHARK SERVICES's tax experts. They helped me maximize my deductions and minimize my liabilities"
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </section>
+      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
 
-      <section id="contact" class="fade-in-ani contact">
-        <div class="container">
-  
-          <div class="section-header">
-            <h2>Contact Us</h2>
-          </div>
-  
-        </div>
-  
-  
-        <div class="container">
-  
-          <div class="row gy-5 gx-lg-5 align-content-center justify-content-center">
-  
-            <div class="col-lg-4">
-  
-              <div class="info">
-                <h3>Get in touch</h3>
-  
-                <div class="info-item d-flex">
-                  <i class="bi bi-geo-alt flex-shrink-0"></i>
-                  <div>
-                    
-                    <h4>Location:</h4>
-                    
-                    <p>2-32, Nizampet Rd, Jai Bharat Nagar, Hyder Nagar, 
-                    Nagarjuna Homes, Kukatpally, Hyderabad, Telangana 500085</p>
-                  </div>
-                </div>
-  
-                <div class="info-item d-flex">
-                  <i class="bi bi-envelope flex-shrink-0"></i>
-                  <div>
-                    <h4>Email:</h4>
-                    <p>info@aydiv.in</p>
-                  </div>
-                </div>
-  
-                <div class="info-item d-flex">
-                  <i class="bi bi-phone flex-shrink-0"></i>
-                  <div>
-                    <h4>Call:</h4>
-                    <p>+91 8977621612</p>
-                  </div>
-                </div>
-  
-              </div>
-  
-            </div>
-  
-            <div class="col-lg-8">
-              <div style="position: relative; padding-bottom: 79%; height: 0;">
-                  <iframe
-                      src="https://docs.google.com/forms/d/e/1FAIpQLScmp4Vb3qBI3JTnZYSRn2rBuBxDNotaa-KlgdgZBpzdcHBGCA/viewform?embedded=true"
-                      width="100%"
-                      height="100%"
-                      frameborder="0"
-                      marginheight="0"
-                      marginwidth="0"
-                      title="contact form"
-                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; max-width: 100vw;">
-                  </iframe>
-              </div>
-          </div>
-          
-  
-          </div>
-  
-        </div>
-      </section>
-  </main>
-  
-
-  <footer id="footer" class="footer">
-
-
-    <div class="footer-content">
       <div class="container">
-
         <div class="row">
+          <div class="col-lg-10">
+            <h2 data-aos="fade-up" data-aos-delay="100">Welcome to Prodigy</h2>
+            <p data-aos="fade-up" data-aos-delay="200">Your strategic partner in talent acquisition, tax services, and workforce management</p>
+          </div>
+          <div class="col-lg-5">
+            <button class="custom-btn" data-aos="fade-up" data-aos-delay="300" ><a href="index.html#about">Get Started</a></button>
 
+          </div>
+        </div>
+      </div>
 
-          <div class="social-links col-lg-4 col-md-6 footer-links">
-            <a href="#" class="twitter"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
-              <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"></path>
-            </svg></a>
-            <a href="#" class="linkedin"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-              <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"></path>
-            </svg></a>
-            <a href="#" class="whatsapp"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-              <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path>
-            </svg></a>
+    </section><!-- End Hero Section -->
+
+    <!-- Clients Section - Home Page -->
+    <section id="clients" class="clients">
+
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- End Clients Section -->
+
+    <!-- About Section - Home Page -->
+    <section id="about" class="about">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-xl-center gy-5">
+
+          <div class="col-xl-5 content">
+            <h3>About Us</h3>
+            <h2>Unlock Success with Prodigy's Staffing Solutions</h2>
+            <p>In today's dynamic business landscape, securing the right talent for your team is crucial for sustained success. At Prodigy, we specialize in providing tailored staffing solutions designed to meet your unique needs and propel your organization towards future triumphs.</p>
+            <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
           </div>
 
+          <div class="col-xl-7">
+            <div class="row gy-4 icon-boxes">
 
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
-              </svg>Home</a></li>
-              <li><a href="#about"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
-              </svg>About us</a></li>
-              <li><a href="#services"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
-              </svg>Services</a></li>
-            </ul>
-          </div>
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box">
+                  <i class="bi bi-buildings"></i>
+                  <h3>Tailored Recruitment</h3>
+                  <p>Our recruitment process is meticulously crafted to align with your organizational culture, ensuring a seamless integration of new talent.</p>
+                </div>
+              </div> <!-- End Icon Box -->
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><a href="services/registration.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
-              </svg>Registration</a></li>
-              <li><a href="services/fillings.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
-              </svg>Filing</a></li>
-              <li> <a href="services/other-services.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
-              </svg>Others</a></li>
-            </ul>
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box">
+                  <i class="bi bi-clipboard-pulse"></i>
+                  <h3>Expert Sourcing</h3>
+                  <p>Our team of seasoned recruiters employs cutting-edge techniques to identify top-tier candidates, ensuring only the most qualified individuals make it through to your final selection.</p>
+                </div>
+              </div> <!-- End Icon Box -->
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box">
+                  <i class="bi bi-command"></i>
+                  <h3>Long-Term Commitment</h3>
+                  <p>We are dedicated to helping you build a team that stays committed and contributes to your organization's long-term goals.</p>
+                </div>
+              </div> <!-- End Icon Box -->
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="bi bi-graph-up-arrow"></i>
+                  <h3>Comprehensive Talent Pool</h3>
+                  <p>With an extensive network and industry expertise, we have access to a diverse talent pool to drive your business forward.</p>
+                </div>
+              </div> <!-- End Icon Box -->
+
+            </div>
           </div>
 
         </div>
       </div>
-        
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.056601496566!2d78.3872803!3d17.5048113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91f9cb6fc9c5%3A0x171f27476c885cf3!2s232%2C%20Nizampet%20Rd%2C%20Nagarjuna%20Homes%2C%20Kukatpally%2C%20Hyderabad%2C%20Telangana%20500090!5e0!3m2!1sen!2sin!4v1689942295429!5m2!1sen!2sin" width="90%" height="400" style="border:0; margin:5%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-          <div class="footer-legal">
-      
-            <div class="copyright ">
-              © 2024 MHARK SERVICES. All rights reserved.
+</section><!-- End About Section -->
+
+    <!-- Stats Section - Home Page -->
+    <section id="stats" class="stats">
+
+      <img src="assets/img/stats-bg.jpg" alt="" data-aos="fade-in">
+    
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+    
+        <div class="row gy-4">
+    
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="300" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Employees Paid</p>
             </div>
-            
-          
+          </div><!-- End Stats Item -->
+    
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="98" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Tax Filings Completed</p>
+            </div>
+          </div><!-- End Stats Item -->
+    
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="500" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Hours of Dedicated Support</p>
+            </div>
+          </div><!-- End Stats Item -->
+    
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Customized Solutions Provided</p>
+            </div>
+          </div><!-- End Stats Item -->
+    
+        </div>
+    
       </div>
+    
+    </section><!-- End Stats Section -->
+    
+    <!-- Services Section - Home Page -->
+<section id="services" class="services">
+
+  <!--  Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Services</h2>
+    <p>Discover our range of tailored staffing solutions designed to meet your business needs</p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="row gy-4">
+
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item d-flex">
+          <div class="icon flex-shrink-0"><i class="bi bi-person-check"></i></div>
+          <div>
+            <h4 class="title"><a href="#" class="stretched-link">Permanent Staffing</a></h4>
+            <p class="description">Unlock success with our permanent staffing solutions tailored to your organization's needs.</p>
+          </div>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item d-flex">
+          <div class="icon flex-shrink-0"><i class="bi bi-clock"></i></div>
+          <div>
+            <h4 class="title"><a href="#" class="stretched-link">Temporary Staffing</a></h4>
+            <p class="description">Empower your success with agile workforce solutions for temporary staffing excellence.</p>
+          </div>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-item d-flex">
+          <div class="icon flex-shrink-0"><i class="bi bi-calculator"></i></div>
+          <div>
+            <h4 class="title"><a href="#" class="stretched-link">Payroll Services</a></h4>
+            <p class="description">Streamline your workforce management with accurate and reliable payroll processing.</p>
+          </div>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="service-item d-flex">
+          <div class="icon flex-shrink-0"><i class="bi bi-file-earmark-bar-graph"></i></div>
+          <div>
+            <h4 class="title"><a href="#" class="stretched-link">Background Verification</a></h4>
+            <p class="description">Ensure hiring reliability with comprehensive background verification services.</p>
+          </div>
+        </div>
+      </div><!-- End Service Item -->
+
+      <!-- Additional Services -->
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
+        <div class="service-item d-flex">
+          <div class="icon flex-shrink-0"><i class="bi bi-journal-richtext"></i></div>
+          <div>
+            <h4 class="title"><a href="#" class="stretched-link">Accurate Payroll Processing</a></h4>
+            <p class="description">Ensure timely and precise salary calculations for your employees, eliminating errors and promoting trust within your workforce.</p>
+          </div>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="600">
+        <div class="service-item d-flex">
+          <div class="icon flex-shrink-0"><i class="bi bi-shield-check"></i></div>
+          <div>
+            <h4 class="title"><a href="#" class="stretched-link">Tax Compliance</a></h4>
+            <p class="description">Navigate the complexities of tax regulations effortlessly. We handle all tax filings and ensure your business stays compliant with the latest legislation.</p>
+          </div>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="700">
+        <div class="service-item d-flex">
+          <div class="icon flex-shrink-0"><i class="bi bi-people"></i></div>
+          <div>
+            <h4 class="title"><a href="#" class="stretched-link">Dedicated Support</a></h4>
+            <p class="description">Experience personalized support from our experts. Whether you have questions or need assistance, our team is here to provide prompt and reliable service.</p>
+          </div>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="800">
+        <div class="service-item d-flex">
+          <div class="icon flex-shrink-0"><i class="bi bi-gear"></i></div>
+          <div>
+            <h4 class="title"><a href="#" class="stretched-link">Customized Solutions</a></h4>
+            <p class="description">Tailored to meet your unique business needs, our payroll solutions adapt to your requirements, allowing you to focus on what you do best.</p>
+          </div>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="900">
+        <div class="service-item d-flex">
+          <div class="icon flex-shrink-0"><i class="bi bi-cloud-check"></i></div>
+          <div>
+            <h4 class="title"><a href="#" class="stretched-link">Technology Integration</a></h4>
+            <p class="description">Embrace efficiency with our cutting-edge technology. Integrate seamlessly with your existing systems for a streamlined payroll process.</p>
+          </div>
+        </div>
+      </div><!-- End Service Item -->
+
     </div>
 
+  </div>
+
+</section><!-- End Services Section -->
+
     
-    
+    <!-- Faq Section - Home Page -->
+    <section id="faq" class="faq">
 
-  </footer>
+      <div class="container">
 
-  <a href="#" id="scroll-top-btn" onclick="topFunction()" class="scroll-top d-flex align-items-center justify-content-center"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
-    <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"></path>
-  </svg></a>
+        <div class="row gy-4">
 
-     
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="content px-xl-5">
+              <h3><span>Frequently Asked </span><strong>Questions</strong></h3>
+              <p>
+                Have questions about our services? Find answers to commonly asked questions below.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="faq-container">
+              <div class="faq-item faq-active">
+                <h3><span class="num">1.</span> <span>What is Permanent Staffing?</span></h3>
+                <div class="faq-content">
+                  <p>Permanent staffing refers to hiring employees on a long-term basis to fill permanent positions within an organization.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">2.</span> <span>How does Temporary Staffing work?</span></h3>
+                <div class="faq-content">
+                  <p>Temporary staffing involves hiring employees for short-term assignments or projects, typically to address temporary workload fluctuations or specific project needs.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">3.</span> <span>What services do your Payroll Services include?</span></h3>
+                <div class="faq-content">
+                  <p>Our payroll services include accurate payroll processing, tax compliance, dedicated support, customized solutions, and technology integration.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">4.</span> <span>Why is Background Verification important?</span></h3>
+                <div class="faq-content">
+                  <p>Background verification is important to ensure the reliability of potential hires and mitigate risks associated with hiring discrepancies, such as criminal records or falsified credentials.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+</section><!-- End Faq Section -->
+
+  <!-- Team Section - Home Page -->
+<section id="team" class="team">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Team</h2>
+    <p>Discover our team members who make things happen</p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="row gy-5">
+
+      <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
+        <div class="member-img">
+          <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+          <div class="social">
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="member-info text-center">
+          <h4>Hari</h4>
+          <span>Member 1</span>
+          <p>Seeking the pursuit of pleasure itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.</p>
+        </div>
+      </div><!-- End Team Member -->
+
+      <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
+        <div class="member-img">
+          <img src="assets/img/team/team-5.jpg" class="img-fluid" alt="">
+          <div class="social">
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="member-info text-center">
+          <h4>Vijay</h4>
+          <span>Member 2</span>
+          <p>To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it?</p>
+        </div>
+      </div><!-- End Team Member -->
+
+      <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
+        <div class="member-img">
+          <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+          <div class="social">
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="member-info text-center">
+          <h4>Nageswar Rao</h4>
+          <span>Member 3</span>
+          <p>But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</p>
+        </div>
+      </div><!-- End Team Member -->
+
+      
+    </div>
+
+  </div>
+
+</section><!-- End Team Section -->
+  <!-- Call-to-action Section - Home Page -->
+    <section id="call-to-action" class="call-to-action">
+
+      <img src="assets/img/cta-bg.jpg" alt="">
+
+      <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="text-center">
+              <h3>Call To Action</h3>
+              <p>Ready to streamline your business operations? Contact us now and let's discuss how our services can help you achieve your goals.</p>
+              <a class="cta-btn" href="#">Call To Action</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- End Call-to-action Section -->
+
+    <!-- Testimonials Section - Home Page -->
+<section id="testimonials" class="testimonials">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-5 info" data-aos="fade-up" data-aos-delay="100">
+        <h3>Testimonials</h3>
+        <p>
+          Hear from some of our satisfied clients who have benefited from our staffing solutions.
+        </p>
+      </div>
+      <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
+        <div class="swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="d-flex">
+                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img flex-shrink-0" alt="">
+                  <div>
+                    <h3>Emma Thompson</h3>
+                    <h4>HR Manager</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Thanks to Prodigy, we found highly skilled permanent staff that perfectly fit our company culture. Their tailored recruitment process truly sets them apart.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="d-flex">
+                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img flex-shrink-0" alt="">
+                  <div>
+                    <h3>John Doe</h3>
+                    <h4>Project Manager</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>We needed temporary staff for a short-term project, and Prodigy delivered beyond our expectations. Their quick turnaround and project-specific expertise were commendable.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="d-flex">
+                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img flex-shrink-0" alt="">
+                  <div>
+                    <h3>Amy Johnson</h3>
+                    <h4>Finance Director</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Prodigy's payroll services have simplified our operations significantly. Their accurate processing and dedicated support have made payroll management a breeze for our organization.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- End Testimonials Section -->
+
+    <!-- Contact Section - Home Page -->
+    <section id="contact" class="contact">
+
+      <!--  Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Reach out, we're here to listen and assist!</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="200">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Address</h3>
+                  <p>123 Main Street</p>
+                  <p>Madhapur,Hyderabad</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="300">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Call Us</h3>
+                  <p>+91 1234567890</p>
+                  <p>+91 9087654321</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="400">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>info@example.com</p>
+                  <p>contact@example.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="500">
+                  <i class="bi bi-clock"></i>
+                  <h3>Open Hours</h3>
+                  <p>Monday - Friday</p>
+                  <p>9:00AM - 05:00PM</p>
+                </div>
+              </div><!-- End Info Item -->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScj48xQMqICn2SjRZJZgDWYY78rHPsCLJeHVn_ZwAhXC2q-ng/viewform?embedded=true" width="600" height="750" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- End Contact Section -->
+
+  </main>
+
+ <!-- ======= Footer ======= -->
+<footer id="footer" class="footer">
+  <div class="container footer-top">
+    <div class="row gy-4">
+      <div class="col-lg-5 col-md-12 footer-about">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <span>Prodigy</span>
+        </a>
+        <p>Empower your business with Prodigy's comprehensive staffing solutions. We are committed to helping you build a skilled workforce and achieve your organizational goals.</p>
+        <div class="social-links d-flex mt-4">
+          <a href="#"><i class="bi bi-twitter"></i></a>
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-6 footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-2 col-6 footer-links">
+        <h4>Our Services</h4>
+        <ul>
+          <li><a href="#">Staffing</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Other Services</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+        <h4>Contact Us</h4>
+        <p>Visit us at our office:</p>
+        <p>123 Main Street</p>
+        <p>Madhapur</p>
+        <p>Hyderabad</p>
+        <p class="mt-4"><strong>Phone:</strong> <span>+91 1234567890</span></p>
+        <p><strong>Email:</strong> <span>info@prodigy.com</span></p>
+      </div>
+    </div>
+  </div>
+</footer><!-- End Footer -->
+<!-- End Footer -->
+
+  <!-- Scroll Top Button -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
